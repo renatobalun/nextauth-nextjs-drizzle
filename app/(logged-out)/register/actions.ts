@@ -5,7 +5,6 @@ import { passwordMatchSchema } from "@/validation/passwordMatchSchema";
 import { z } from "zod";
 import { hash } from "bcryptjs";
 import { users } from "@/db/usersSchema";
-import { error } from "console";
 
 export const registerUser = async ({
   email,
